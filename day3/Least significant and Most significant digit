@@ -1,0 +1,6 @@
+n=54321
+Least=n%10
+Print(least)
+b=str(n)
+c=int(b[0])
+print(c)
