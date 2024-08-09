@@ -1,0 +1,8 @@
+def is_prime(n):
+return num>1 and all(num%i!=0)
+for i in range(2,int(num**0.5)+1)
+def generate_prime_between(start,end):
+primes=num for num in range(start,end):
+if primes:
+print(primes[0])
+generate_prime numbers(10,50)
