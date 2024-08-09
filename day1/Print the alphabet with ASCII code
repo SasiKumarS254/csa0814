@@ -1,0 +1,6 @@
+print("ASCII values of upper case:")
+for char in range(65,91):
+print(f"{char(char)}:{char}")
+print("ASCII values of lower case:")
+for char in range(97,123):
+print(f"{char(char)}:{char}")
