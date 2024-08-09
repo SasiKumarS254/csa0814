@@ -1,0 +1,13 @@
+import math
+from functools import reduce
+def gcd_of_three(a,b,c):
+return math.gcd(math.gcd(a,b),c)
+def lcm_of_three(a,b,c):
+return reduce(lcm,[a,b,c])
+a=12
+b=15
+c=20
+gcd_result=gcd_of_three(a,b,c)
+lcm_result=lcm_of_three(a,b,c)
+print(f"GCD of {a},{b},{c} is:{gcd_result}")
+print(f"LCM of {a},{b},{c} is:{lcm_result}")
