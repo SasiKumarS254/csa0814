@@ -1,0 +1,13 @@
+a=int(input())
+b=len(str(a))
+if b%2==0:
+c=a%100
+d=a//100
+e=c+d
+f=a**2
+if f==a:
+print("Tech number")
+else:
+print("Not a Tech number")
+else:
+print("Not a Tech number")
