@@ -1,0 +1,11 @@
+sentence=input()
+convert_sentence=sentence.swapcase()
+words=sentence.split()
+num_words=len(words)
+word1=0
+for word in words:
+if len(word)>0 and word[0]="A" or word[0]="a"
+word1+=1
+print(convert_sentence)
+print(words)
+print(word1)
