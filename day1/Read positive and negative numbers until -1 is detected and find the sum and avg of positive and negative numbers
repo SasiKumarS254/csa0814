@@ -1,0 +1,21 @@
+positive_sum=0
+positive_count=0
+negative_sum=0
+negative_count=0
+print("Enter number(enter -1 o stop):")
+while True:
+n=int(input())
+if n==-1:
+break
+if n>0:
+positive_sum+1=n
+positive_count+=1
+elif n<0:
+negative_sum+1=n
+negative_count+=1
+positive_avg=positive_sum/positive_count
+negative_avg=negative_sum/negative_count
+print(f"sum of positive number:{positive_sum}")
+print(f"sum of negative number:{negative_sum}")
+print(f"avg of positive number:{positive_avg}")
+print(f"avg of negative number:{negative_avg}")
