@@ -1,0 +1,8 @@
+def is_palindrome(n):
+num_str=str(n)
+return num_str==num_str[::-1]
+n=12321
+if is_palindrome(n):
+print(f"{n} is a palindrome")
+else:
+print(f"{n} is not a palindrome")
