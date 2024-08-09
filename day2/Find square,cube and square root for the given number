@@ -1,0 +1,8 @@
+def calculate_square_cube_sqrt(n):
+square=n**2
+cube=n**3
+square_root=math.sqrt(n)
+return square,cube,square_root
+n=8
+square,cube,square_root=calculate_square_cube_sqrt(n)
+print(f"The square of{n} is:{square},{cube},{square_root}")
