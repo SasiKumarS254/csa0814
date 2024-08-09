@@ -1,0 +1,16 @@
+def is_composite(n):
+if  n<4:
+return False
+for i in range(2,int(n**0.5)+1):
+if n % i = 0:
+return True
+return False
+def print_composite_number(start,end):
+print(num,end+1)
+for num  is range(num):
+if is_composite(num):
+print(num,end=" ")
+start=10
+end=30
+print(f"Composite number between{start} and {end} are:")
+print_composite_numbers(start,end)
