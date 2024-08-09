@@ -1,0 +1,13 @@
+def sum_of_squares(n):
+sum_squares_odd=0
+sum_squares_even=0
+for num in n:
+if num % 2==0:
+sum_squares_even+=num**2
+else:
+sum_squares_odd+=num**2
+return sum_squares_odd,sum_squares_even
+n=[1,2,3,4,5,6,7,8,9,10]
+sum_squares_odd,sum_squares_even=sum_of_squares(n)
+print(f"The sum of squares of odd numbers is:{sum_squares_odd}")
+print(f"The sum of squares of even numbers is:{sum_squares_even}")
