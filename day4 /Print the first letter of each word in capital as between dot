@@ -3,3 +3,6 @@ words=s.split()
 s=[word[0].upper()for word in words]
 res = '.'. join(s)
 print(res)
+
+Output:
+L.H.C
