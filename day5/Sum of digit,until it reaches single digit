@@ -3,3 +3,7 @@ n=int(input("Enter a number: "))
 while n>=10:
     n=sum(int(digit) for digit in str(n))
 print("The single digit is:",n)
+
+Input:9876
+Output:
+The single digit is 3
