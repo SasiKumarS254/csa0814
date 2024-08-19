@@ -7,3 +7,10 @@ def sum_of_series(num):
     return result
 n=5
 print("sum:", sum_of_series(n))
+
+Output:
+Sum:1.0
+Sum:2.0
+Sum:4.0
+Sum:10.0
+Sum:34.0
