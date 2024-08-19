@@ -15,3 +15,6 @@ return true
 str1="abccba"
 str2="xpxcpx"
 print(isomorphic[str1,str2])
+
+Output:
+True
