@@ -9,3 +9,6 @@ if is_perfect_square(num):
     print(f"{num} is a perfect square.")
 else:
     print(f"{num} is not a perfect square.")
+
+Output:
+16 is a perfect number
