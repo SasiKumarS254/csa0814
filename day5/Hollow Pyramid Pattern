@@ -7,3 +7,11 @@ print("*", end="")
 else:
 print(" ", end="")
 print()  
+
+Input:5
+Output:
+      *
+    *  *
+  *      *
+*         *
+*  *  *  *  *
