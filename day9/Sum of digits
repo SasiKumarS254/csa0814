@@ -1,0 +1,5 @@
+num = input("")
+print(sum(int(digit) for digit in num))
+
+Input:123
+Output:6
