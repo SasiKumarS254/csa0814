@@ -1,0 +1,10 @@
+s = "welcome"
+result = ''
+for c in s:
+    if c in 'aeiou': 
+        result += c + '^'  
+    else:
+        result += c + '@'  
+print("Transformed String:", result)
+.INSERT VOWEL IF THE GIVEN STRING IS VOWEL ELSE AT THE RATE
+
