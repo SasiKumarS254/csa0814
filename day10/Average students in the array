@@ -4,3 +4,6 @@ c=0
 for i in range(len(a)):
 c+=a[i]-b[i]
 print(c)
+
+Output:
+75
