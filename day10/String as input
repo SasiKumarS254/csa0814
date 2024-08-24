@@ -6,5 +6,6 @@ for c in s:
     else:
         result += c + '@'  
 print("Transformed String:", result)
-.INSERT VOWEL IF THE GIVEN STRING IS VOWEL ELSE AT THE RATE
 
+Output:
+@^@@^@^
